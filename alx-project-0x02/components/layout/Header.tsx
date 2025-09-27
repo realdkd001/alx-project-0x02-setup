@@ -3,7 +3,8 @@ import React from 'react'
 function Header() {
   return (
     <div>
-        <h1>Welcome to the Header Component</h1>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
     </div>
   )
 }
