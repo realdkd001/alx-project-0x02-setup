@@ -19,3 +19,20 @@ export interface PostCardProps {
   content: string;
   userId: number;
 }
+
+export interface PostProps {
+  title: string;
+  body: string;
+  userId: number;
+}
+
+export interface UserCardProps {
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    suite: string;
+    city: string;
+    zipcode: string;
+  };
+}
