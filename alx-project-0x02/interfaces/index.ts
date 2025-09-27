@@ -14,3 +14,8 @@ export interface ButtonProps {
   size: 'small' | 'medium' | 'large';
   shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
 }
+export interface PostCardProps {
+  title: string;
+  content: string;
+  userId: number;
+}
