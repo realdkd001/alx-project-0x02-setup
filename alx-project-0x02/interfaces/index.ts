@@ -9,3 +9,8 @@ export interface PostModalProps extends CardProps {
   isOpen: boolean;
   onClose: () => void;
 }
+
+export interface ButtonProps {
+  size: 'small' | 'medium' | 'large';
+  shape: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+}
